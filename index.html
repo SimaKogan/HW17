@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvels-Field</title>
+    <link rel="stylesheet" href="styles/wordle.css">
+</head>
+
+<body>
+    <input type="text" onchange="onChange(event)" class="input-text">
+    <section class="word-guess">
+
+    </section>
+    <p class="question-alert"></p>
+    <p class="game-over-message"></p>
+    <button id="play-again" onclick="startGame()">Play Again</button>
+
+    <script src="src/wordle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.word-guess {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+.letter-guess {
+    font-size: 1.5em;
+    margin-left: 2vw;
+    background-color: black;
+    width: 3.5vw;
+    text-align: center;
+}
